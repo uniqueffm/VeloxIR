@@ -19,4 +19,46 @@ VeloxIR-Core (Dieses Repo):
 Enthält die UI-Engine, das Reporting-System, die lokale Log-Kollektion und das grundlegende Agent-Management.
 Erweiterbarkeit: Das Framework ist so konzipiert, dass spezifische Module (z.B. für Cloud-Forensik, erweiterte SIEM & EDR-Integrationen oder proprietäre Analyse-Engines) nahtlos angedockt werden können.
 Hinweis: Dieses Repository stellt ausschließlich den freien Open-Source-Kern zur Verfügung.
-Erweiterte Enterprise-Module für spezifische kommerzielle Anwendungsfälle sind separat erhältlich und nicht Bestandteil dieser Codebase.
+Erweiterte Enterprise-Module für spezifische kommerzielle Anwendungsfälle sind separat erhältlich und nicht Bestandteil dieser Codebase
+
+
+Installation & Setup
+
+Repository klonen:
+.
+.
+
+requirements:
+.
+.
+.
+
+RUN WIN:
+.
+.
+
+RUN LIN:
+.
+.
+
+RUN MAC:
+.
+.
+
+DOCS & WIKI:
+https://...............
+
+
+Forensische Integrität:
+VeloxIR protokolliert jede Aktion im internen Audit Log, um die Chain of Custody zu wahren. 
+Alle generierten Berichte enthalten Zeitstempel und Prüfsummen der untersuchten Beweismittel.
+
+Contributing:
+Wir freuen uns über Beiträge zum Kern-Framework! 
+Egal ob neue Sigma-Mapping-Dateien, Bugfixes oder UI-Verbesserungen – reiche einfach einen Pull Request ein.
+
+
+WIP - INITIAL UPLOAD PENDING
+Ichbereiten den Kern von VeloxIR aktuell OpenSource based vor. 
+Um eine saubere Codebase ohne proprietäre Abhängigkeiten zu garantieren, erfolgt der Push des Free-Open-Source-Codes schnellstmöglich in dieser Woche. 
+Watch this space and help to get a better place!
